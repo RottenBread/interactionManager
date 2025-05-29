@@ -1,0 +1,9 @@
+name: interactionManager
+version: '1.0-SNAPSHOT'
+main: main.rottenbread.im.interactionManager.InteractionManager
+api-version: '1.21'
+commands:
+  imreload:
+    description: Reloads the config.yml
+    usage: /<command>
+    permission: im.reload
